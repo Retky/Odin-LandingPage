@@ -1,0 +1,29 @@
+div {
+    border: solid red;
+    min-height: 100px;
+}
+header{
+    border: solid blue;
+    min-height: 100px;
+}
+section{
+    border: solid lightblue;
+    min-height: 100px;
+}
+footer{
+    border: solid blue;
+    min-height: 100px;
+}
+/* ALL CODE ABOVE IS FOR PREVIEW & DESIGN ONLY (delete after setup the layout) */
+:root{
+    --bg-dark : #1F2937;
+    --tx-color-w : #F9FAF8;
+    --tx-color-w2 : #E5E7EB;
+    --bg-blue : #3882F6;
+    --tx-color-d : #1F2937;
+    --bg-gray : #E5E7EB;
+}
+
+body {
+    margin: 0px;
+}

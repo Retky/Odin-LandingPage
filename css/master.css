@@ -1,29 +1,66 @@
 div {
     border: solid red;
-    min-height: 100px;
 }
-header{
-    border: solid blue;
-    min-height: 100px;
-}
+
 section{
     border: solid lightblue;
-    min-height: 100px;
 }
+
 footer{
     border: solid blue;
-    min-height: 100px;
+}
+.nav {
+    border: solid red;
 }
 /* ALL CODE ABOVE IS FOR PREVIEW & DESIGN ONLY (delete after setup the layout) */
 :root{
     --bg-dark : #1F2937;
-    --tx-color-w : #F9FAF8;
-    --tx-color-w2 : #E5E7EB;
+    --tx-white : #F9FAF8;
+    --tx-white2 : #E5E7EB;
     --bg-blue : #3882F6;
-    --tx-color-d : #1F2937;
+    --tx-black : #1F2937;
     --bg-gray : #E5E7EB;
 }
-
+/* BODY */
 body {
+    height: 100vh;
     margin: 0px;
+    font-family: 'Roboto',Arial,'Helvetica Neue',Helvetica,sans-serif;
+}
+
+/* HEADER */
+header {
+    background: var(--bg-dark);
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+.logo {
+    color: var(--tx-white);
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    color: var(--tx-white2);
+    font-size: 18px;
+}
+
+/* SECTION */
+.content {
+    padding: 0 10%;
+}
+
+/* FOOTER */
+footer {
+    background: var(--bg-dark);
+    padding: 0 10%;
+    color: var(--tx-white2)
 }

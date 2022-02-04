@@ -108,6 +108,21 @@ header {
     border: solid var(--bg-blue) 8px;
 }
 
+.quote {
+    background: var(--bg-gray);
+    padding: 80px 15%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--tx-black);
+}
+.quote .autor {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+}
+
 /* FOOTER */
 footer {
     background: var(--bg-dark);

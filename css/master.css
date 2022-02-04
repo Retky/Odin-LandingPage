@@ -152,6 +152,8 @@ header {
 /* FOOTER */
 footer {
     background: var(--bg-dark);
-    padding: 0 10%;
-    color: var(--tx-white2)
+    padding: 50px 10%;
+    color: var(--tx-white2);
+    text-align: center;
+    font-size: 18px;
 }
